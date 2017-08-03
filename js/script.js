@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var url=window.location.host;
-    var myurl="www.52xyi.cn";
+    var myurl="aorz.cc";
     if (url!=myurl) {
         $(".record").addClass("hidden");
     }else{
@@ -49,11 +49,11 @@ $(document).ready(function () {
     $(document.body).on('keydown', function (event) {
         // Press 'b' key
         if (event.which === 88) {
-            $('.go-location').text("Going to XiaoYi's blog");
+            $('.go-location').text("Going to Moexin's blog");
             $('.go').css('opacity', 1);
 
             window.setTimeout(function () {
-                window.location.href = 'http://blog.domeyi.com';
+                window.location.href = 'http://aorz.cc/';
             }, 1000);
         }
     });
