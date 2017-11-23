@@ -53,7 +53,7 @@ $(document).ready(function () {
             $('.go').css('opacity', 1);
 
             window.setTimeout(function () {
-                window.location.href = 'http://aorz.cc/';
+                window.location.href = '//lmeoo.com';
             }, 1000);
         }
     });
